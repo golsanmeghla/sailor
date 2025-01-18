@@ -1,0 +1,93 @@
+*{
+	padding:0;
+	margin:0;
+}
+.floating-btn{
+	padding: 10px;
+	background-color:#BF485B;
+	color:#fff;
+	position:fixed;
+	bottom: 20px;
+	right: 20px;
+	border: none;
+}
+.img-contents 
+{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.img-contents:hover .content {
+    bottom: 0;
+}
+.images-background{
+	background-color: #f2f4f6;
+	padding: 30px 30px;
+}
+.container img{
+	opacity:0.5;
+	width:100px
+}
+
+.images-background img:hover{
+	opacity:2
+}
+
+/*card start*/
+.card-hover{
+	border: 1px solid secondary;
+}
+.card-hover:hover{
+	border: 1px solid red;
+	color: red;
+}
+
+/* card end */
+
+
+/* Portfolio start */
+
+/* Portfolio End */
+/*footer start*/
+
+.input-groups 
+{
+    position: relative;
+    border: 1px solid #808080;
+    padding: 8px;
+}
+
+.input-1
+{
+    background-color: #3b4654;
+    border: 0;
+    width: 100%;
+    outline: none;
+    color: #ffffff;
+	
+}
+.socail-icon a {
+	text-decoration :none;
+	color:black;
+	transition:color 0.3s ease;
+}
+.socail-icon a:hover,
+.socail-icon a:hover i{
+	color:red;
+}
+
+/*footer end*/
+
+
+.input-groups .input-2
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0;
+}
+
+	.socail-icon:hover i{
+		 background-color:red
+	}
